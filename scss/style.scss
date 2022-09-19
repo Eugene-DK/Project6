@@ -1,0 +1,31 @@
+// scss formatter, scss intellesense
+
+@import "_header";
+
+h1 {
+	color: blueviolet;
+}
+
+body {
+
+	font-size: 20px;
+
+	div {
+		font-size: 10px;
+	}
+
+}
+
+.red {
+	// добавлен класс, для наследования везде
+	color: red($color: #000000);
+}
+
+// .block {
+// 	& item {}
+// }
+.block {
+	color-scheme: round($number: 0);
+}
+
+// .block__item {}

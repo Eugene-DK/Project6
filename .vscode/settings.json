@@ -1,0 +1,22 @@
+{
+   "editor.tabSize": 3,
+   "editor.insertSpaces": false,
+   "editor.colorDecorators": false,
+   "editor.mouseWheelZoom": true,
+   "editor.formatOnSave": true,
+   // 39:40 урока по VSCode
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.formats": [
+      {
+         "format": "compressed",
+         "extensionName": ".css",
+         // "autoprefix": "localHistory"
+         "savePath": "/css"
+      }
+   ],
+   "git.branchProtectionPrompt": "alwaysCommit",
+   "git.repositoryScanMaxDepth": -1,
+   "git.scanRepositories": [
+      "https://github.com/Eugene-DK/Pr6"
+   ]
+}
